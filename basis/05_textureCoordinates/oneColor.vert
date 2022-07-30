@@ -18,7 +18,6 @@ attribute vec2 aTexCoord;
 */
 varying vec2 vTexCoord;
 
-
 void main() {
   //Copy the texture coordinates
   vTexCoord = aTexCoord;

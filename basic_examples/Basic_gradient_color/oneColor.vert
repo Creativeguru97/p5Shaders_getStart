@@ -8,7 +8,7 @@ onto the shape*/
 attribute vec3 aPosition;
 
 void main() {
-  // copy the position data into a vec4(x, y, z, w)
+  //Copy the position data into a vec4(x, y, z, w)
   //When the w = 0.0, the vector is treated as direction.
   //When the w = 1.0, the vector is treated as position.
   //Scalar or Vector

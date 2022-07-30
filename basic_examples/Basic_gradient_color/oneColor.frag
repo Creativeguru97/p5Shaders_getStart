@@ -20,7 +20,7 @@ void main() {
 
   float r = st.x;
   float g = 1.0-st.y;
-  vec3 color = vec3(r, g, 0.6);
+  vec3 color = vec3(r, g, 1);
 
   // gl_FragColor is a built in shader variable, and you .frag file must contain it
   // We are setting the vec3 color into a new vec4, with an transparency of 1 (no opacity)

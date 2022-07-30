@@ -1,4 +1,3 @@
-
 // These are necessary definitions that let you graphics card know how to render the shader
 #ifdef GL_ES //a shader API which is automatically used by your GPU
 precision mediump float;//lowp / mediump/highp
@@ -12,7 +11,7 @@ vec2 st = vTexCoord;
 
 void main() {
   vec2 st = gl_FragCoord.xy/u_resolution.xy;
-  
+
   vec2 uv = vTexCoord;
   gl_FragColor = vec4(uv, 1.0);
 }
