@@ -36,9 +36,9 @@ float blurred_circle_outline(vec2 st, float r, float wid, float blur){
 void main(){
     vec2 st = gl_FragCoord.xy/u_resolution;
 
-    // vec3 color = vec3(circle(st, 0.3));
+    vec3 color = vec3(circle(st, 0.3));
     // vec3 color = vec3(blurred_circle(st, 0.3, 0.05));
-    vec3 color = vec3(circle_outline(st, 0.3, 0.05));
+    // vec3 color = vec3(circle_outline(st, 0.3, 0.05));
     // vec3 color = vec3(blurred_circle_outline(st, 0.3, 0.05, 0.05));
     gl_FragColor = vec4(color,1.0);
 }
